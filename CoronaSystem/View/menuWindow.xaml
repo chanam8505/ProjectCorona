@@ -1,0 +1,34 @@
+﻿<Window x:Class="CoronaSystem.View.menuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoronaSystem.View"
+        mc:Ignorable="d"
+        Title="menuWindow" Height="450" Width="800" Background="Teal">
+
+    <Border BorderBrush="Black" BorderThickness="1">
+        <Grid Background="White" Margin="9.2,9.2,8.8,8.4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="400" Margin="258,0,0,0" VerticalAlignment="Top" Width="258" Grid.ColumnSpan="2"/>
+
+            <Image Source="/CoronaSystem;component/images/9.png" Height="176" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="34,45,52,196.6" Width="178" OpacityMask="Black"/>
+            <Image Source="/CoronaSystem;component/images/6.png" Height="163" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="24.2,40,59.6,204.6" Width="177" Grid.Column="1" />
+            <Image Source="/CoronaSystem;component/images/1.png" Height="176" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="35.4,40,53.4,191.6" Width="172" Grid.Column="2" />
+
+            <Button Content="enter" Background="SandyBrown" Foreground="White" Margin="80,337,86.4,25"/>
+            <Button Content="enter" Background="Plum" Foreground="White" Margin="91.6,337,85,25" Grid.Column="1"/>
+            <Button Content="enter" Background="PaleTurquoise" Foreground="White" Margin="93,337,77.4,25" Grid.Column="2"/>
+
+            <Label x:Name="emlpoyee" Content="emlpoyee" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,259,0,0" FontSize="20" FontFamily="Segoe UI Black"/>
+            <Label x:Name="division" Content="division" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,259,0,0" FontSize="20" FontFamily="Segoe UI Black" Grid.Column="1"/>
+            <Label x:Name="management" Content="management" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="68,259,0,0" FontSize="20" FontFamily="Segoe UI Black" Grid.Column="2"/>
+
+        </Grid>
+    </Border>
+
+</Window>

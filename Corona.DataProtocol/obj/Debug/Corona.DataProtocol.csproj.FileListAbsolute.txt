@@ -1,0 +1,5 @@
+d:\CoronaWpf\CoronaManagementSystem\Corona.DataProtocol\bin\Debug\Corona.DataProtocol.dll
+d:\CoronaWpf\CoronaManagementSystem\Corona.DataProtocol\bin\Debug\Corona.DataProtocol.pdb
+d:\CoronaWpf\CoronaManagementSystem\Corona.DataProtocol\obj\Debug\Corona.DataProtocol.csprojAssemblyReference.cache
+d:\CoronaWpf\CoronaManagementSystem\Corona.DataProtocol\obj\Debug\Corona.DataProtocol.dll
+d:\CoronaWpf\CoronaManagementSystem\Corona.DataProtocol\obj\Debug\Corona.DataProtocol.pdb
